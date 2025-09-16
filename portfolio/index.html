@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Augusto | Desenvolvedor</title>
+  <meta name="keywords"
+    content="Desenvolvedor, Portfólio, Web, HTML, CSS, JavaScript, PHP, MySQL, Front-end, Back-end, Programador">
+  <meta name="description"
+    content="Portfólio de Lucas Augusto, Desenvolvedor Web especializado em Front-end e Back-end. Conheça meus projetos em HTML, CSS, JavaScript, PHP e MySQL.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">⛩️ Lucas.dev</h1>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+        <li><a href="#tecnologias"><i class="fas fa-tools"></i> Tecnologias</a></li>
+        <li><a href="#projetos"><i class="fas fa-folder"></i> Projetos</a></li>
+        <li><a href="#redes"><i class="fas fa-envelope"></i> Contato</a></li>
+         <li>
+          <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Alternar tema">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-bg-animation">
+      <div class="street-lines"></div>
+      <div class="neon-signs">
+        <span>JDM</span>
+        <span>TUNING</span>
+        <span>SPEED</span>
+      </div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-texto">
+          <h1>Lucas Augusto</h1>
+          <h2><span class="digitando"></span></h2>
+          <p>Transformando conhecimento em código e código em soluções.</p>
+          <div class="hero-buttons">
+            <a href="#redes" class="btn">Entre em Contato</a>
+            <a href="#projetos" class="btn-outline">Ver Projetos</a>
+          </div>
+        </div>
+        <div class="hero-foto">
+          <div class="photo-frame">
+            <img src="imagens/foto_pessoal.jpg" alt="Foto de perfil de Lucas Augusto, sorrindo e olhando para a câmera." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section fade-in-section">
+      <div class="container">
+        <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Tenho 18 anos, sou técnico em Análise e Desenvolvimento de Sistemas e atualmente estou cursando o 2º
+              semestre do Tecnólogo na mesma área.
+              Estou em busca de uma oportunidade na área de desenvolvimento web, sempre visando me aprimorar
+              diariamente.
+            </p>
+            <p>
+              Minha paixão por tecnologia vai além do código - assim como os mestres do tuning japonês, busco a
+              perfeição em cada detalhe e acredito que a combinação
+              de performance e estética resulta nos melhores projetos.
+            </p>
+            <h2><i class="fas fa-user"></i> Por que escolhi esse tema para o portfólio?</h2>
+             <p>
+              Sempre fui apaixonado por carros, especificamente os japoneses. Cresci assistindo a saga de Velozes e 
+              Furiosos, em especial o "Desafio em Tóquio", e ao idealizar em como eu poderia fazer um portfólio autêntico e 'diferente',
+              decidi juntar minhas duas paixôes em algo que se tornasse importante para mim.
+            </p>
+          </div>
+          <div class="about-image">
+            <video autoplay loop muted playsinline aria-describedby="about-video-desc">              <source src="carros.mp4" type="video/mp4">
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <p id="about-video-desc" class="sr-only">Vídeo curto de um carro esportivo japonês (JDM) tunado, em
+              movimento noturno, representando paixão por detalhes e performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section bg-light fade-in-section">
+      <div class="container">
+        <h2><i class="fas fa-tools"></i> Tecnologias</h2>
+        <div class="skills">
+          <div class="skill-item">
+            <span>HTML</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>CSS</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>PHP</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="65"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>MySQL</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Git</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Bootstrap</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="50"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="qualidades" class="section fade-in-section">
+      <div class="container">
+        <h2><i class="fas fa-star"></i> Skills</h2>
+        <div class="qualidades-grid">
+          <div class="qualidade-card">
+            <i class="fas fa-comments"></i>
+            <h3>Boa comunicação</h3>
+            <p>Capacidade de expressar ideias com clareza e eficiência.</p>
+          </div>
+          <div class="qualidade-card">
+            <i class="fas fa-users"></i>
+            <h3>Trabalho em equipe</h3>
+            <p>Colaboração eficaz para alcançar objetivos comuns.</p>
+          </div>
+          <div class="qualidade-card">
+            <i class="fas fa-rocket"></i>
+            <h3>Disposição para aprender</h3>
+            <p>Busca constante por conhecimento e evolução.</p>
+          </div>
+          <div class="qualidade-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Solução criativa de problemas</h3>
+            <p>Abordagem inovadora para desafios complexos.</p>
+          </div>
+          <div class="qualidade-card">
+            <i class="fas fa-clock"></i>
+            <h3>Organização e pontualidade</h3>
+            <p>Gerenciamento eficiente de tempo e recursos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section bg-light fade-in-section">
+      <div class="container">
+        <h2><i class="fas fa-folder"></i> Projetos em Destaque</h2>
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <div class="project-image">
+                <img src="imagens/projeto1.gif" alt="Sistema de Gerenciamento de Alunos">
+              </div>
+              <h3>Gerenciamento de Alunos</h3>
+              <p>O objetivo deste projeto está sendo desenvolver uma plataforma web completa para permitir que professores gerenciem notas, calculem XP e acompanhem o ranking de alunos de forma gamificada e intuitiva.</p>
+              <div class="project-techs">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+              </div>
+             <div class="project-buttons">
+            <a href="#" target="_blank" class="btn-project">
+              <i class="fas fa-eye"></i> Ver Projeto Online
+            </a>
+            <a href="https://github.com/Lucasfaria2024/Projeto-Studio" target="_blank" class="btn-project-outline">
+              <i class="fab fa-github"></i> Ver Código
+            </a>
+             <button class="btn-project-details" data-project="1"> <i class="fas fa-info-circle"></i> Ver Detalhes
+             </button>
+          </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="project-image">
+                <img src="https://placehold.co/600x400/1a1a2e/e0e0e0?text=Projeto+2" alt="E-commerce Platform">
+              </div>
+              <h3>Plataforma E-commerce</h3>
+              <p>Sistema de e-commerce completo com carrinho de compras e painel administrativo.</p>
+              <div class="project-techs">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+              </div>
+              <div class="project-buttons">
+            <a href="#" target="_blank" class="btn-project">
+              <i class="fas fa-eye"></i> Ver Projeto Online
+            </a>
+            <a href="https://github.com/Lucasfaria2024/Projeto-Studio" target="_blank" class="btn-project-outline">
+              <i class="fab fa-github"></i> Ver Código
+            </a>
+             <button class="btn-project-details" data-project="1"> <i class="fas fa-info-circle"></i> Ver Detalhes
+             </button> 
+          </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="project-image">
+                <img src="https://placehold.co/600x400/1a1a2e/e0e0e0?text=Projeto+3" alt="Dashboard Analytics">
+              </div>
+              <h3>Dashboard Analytics</h3>
+              <p>Painel de visualização de dados com gráficos interativos e exportação de dados.</p>
+              <div class="project-techs">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Json</span>
+              </div>
+            <div class="project-buttons">
+            <a href="#" target="_blank" class="btn-project">
+              <i class="fas fa-eye"></i> Ver Projeto Online
+            </a>
+            <a href="https://github.com/Lucasfaria2024/Projeto-Studio" target="_blank" class="btn-project-outline">
+              <i class="fab fa-github"></i> Ver Código
+            </a>
+             <button class="btn-project-details" data-project="1"> <i class="fas fa-info-circle"></i> Ver Detalhes
+             </button>
+          </div>
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Slide Anterior"><i class="fas fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Próximo Slide"><i class="fas fa-chevron-right"></i></button>
+          <div class="carousel-indicators"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contatos" id="redes fade-in-section">
+        <div class="container contact-container">
+            <div class="contact-form-container">
+                <h3><i class="fas fa-paper-plane"></i> Mande uma mensagem</h3>
+                <form action="https://formspree.io/f/xwpnyvna" method="POST" class="contact-form">
+                    <label for="name">Seu Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Ex: Lucas Augusto" required>
+
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: lucas@email.com" required>
+
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Sua mensagem..." required></textarea>
+
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="social-links-container">
+                <h3><i class="fas fa-share-alt"></i> Minhas Redes</h3>
+                <a href="https://github.com/Lucasfaria2024" target="_blank" class="social-btn github" aria-label="Acessar perfil do GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-augusto-8b930534b/" target="_blank" class="social-btn linkedin" aria-label="Acessar perfil do LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:luc0037@gmail.com" target="_blank" class="social-btn email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="https://wa.me/5511999999999" target="_blank" class="social-btn whatsapp"> <!-- Lembre-se de colocar seu número real aqui -->
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Lucas Augusto. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div id="project-modal" class="modal-overlay">
+  <div class="modal-content">
+    <button id="modal-close-btn" class="modal-close-btn" aria-label="Fechar janela">
+      <i class="fas fa-times"></i>
+    </button>
+    <div id="modal-project-content">
+      <h2 id="modal-title">Título do Projeto</h2>
+      <div class="modal-body">
+        <img id="modal-image" src="imagens/imagem1.png" alt="">
+        
+        <h3><i class="fas fa-bullseye"></i> Resumo</h3>
+        <p id="modal-summary">Resumo do projeto aqui.</p>
+
+        <h3><i class="fas fa-cogs"></i> Desafios e Soluções</h3>
+        <p id="modal-challenges">Desafios e soluções aqui.</p>
+
+        <h3><i class="fas fa-lightbulb"></i> O que Aprendi</h3>
+        <p id="modal-learnings">O que aprendi aqui.</p>
+
+        <h3><i class="fas fa-tools"></i> Tecnologias</h3>
+        <div id="modal-techs" class="project-techs">
+          </div>
+        
+        <div id="modal-links" class="project-buttons">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
